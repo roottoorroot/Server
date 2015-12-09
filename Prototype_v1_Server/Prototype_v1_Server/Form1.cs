@@ -38,7 +38,7 @@ namespace Prototype_v1_Server
             //FormingTable(2);
             checkBox1.Checked = true;
             initConfig();
-            DataGridVseZayavki(@"D:\log\Closelog.txt");
+            DataGridVseZayavki(@"C:\log\Closelog.txt");
             
             
         }
@@ -48,7 +48,7 @@ namespace Prototype_v1_Server
             string patch;
             try
             {
-                StreamReader reader = new StreamReader(@"D:\log\config.txt");
+                StreamReader reader = new StreamReader(@"C:\log\config.txt");
                 patch = reader.ReadLine();
                 reader.Close();
                 _patch = patch;
@@ -114,12 +114,14 @@ namespace Prototype_v1_Server
         {
             //bool erflag = true;
             //int count = 0;
-            IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName());
-            IPAddress localhost = ipHostInfo.AddressList[0];
-            //IPAddress localhost = IPAddress.Parse("192.53.1.64");
+
+            //IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName());
+            //IPAddress localhost = ipHostInfo.AddressList[0];
+            IPAddress localhost = IPAddress.Parse("192.53.1.109");
+            //textBox4.Text = Convert.ToString(localhost.ToString());
             listener = new TcpListener(localhost, 12345);
             listener.Start();
-            LogMessage("              Waiting for connection...");
+            LogMessage("              Ожидание входящего подключения...");
             
             while (true)
             {
@@ -179,7 +181,7 @@ namespace Prototype_v1_Server
         //Read klient response
         private static string ReadMessage(TcpClient client)
         {
-            byte[] buffer = new byte[256];
+            byte[] buffer = new byte[2*512];
             int totalRead = 0;
 
             do
@@ -204,9 +206,15 @@ namespace Prototype_v1_Server
         private void button1_Click(object sender, EventArgs e)
         {
             string tnow = DateTime.Now.ToString();
-            textBox1.Text = "Service Up";
-            richTextBox1.Text = "Status.....\r" + "              Server started  in [" + tnow + "] \r";
+            //IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName());
+            //IPAddress localhost = ipHostInfo.AddressList[0];
+            IPAddress localhost = IPAddress.Parse("192.53.1.109");
+            textBox4.Text = Convert.ToString("192.53.1.109");
 
+
+            textBox1.Text = "Запущен";
+            richTextBox1.Text = "Статус.....\r" + "              Создание подключения.........Ок \r" + "              Сбор данных о сети...............Ок \r" + "              Запуск сервера состоялся в [" + tnow + "] \r" + "              Адрес хоста: " + localhost.ToString() + "\r";
+           
             //StreamWriter logStart = new StreamWriter(_patch, true);
             //logStart.WriteLine();
             //logStart.Write(".................................Server now started in: [" + tnow + "]......................................");
@@ -375,7 +383,7 @@ namespace Prototype_v1_Server
 
             bool flag = false;
             int item = 0;
-            string patch = @"D:\\log\\closelog.txt";
+            string patch = @"C:\\log\\closelog.txt";
             string new_responce = "";
             string datatime = DateTime.Now.ToString();
             for (int i = 0; i < dataGridView1.RowCount; i++)
@@ -421,7 +429,7 @@ namespace Prototype_v1_Server
             LoggInFileClose(patch,new_responce);
             dataGridView1.Rows[item].Selected = false;
             new_responce = "";
-            DataGridVseZayavki(@"D:\log\Closelog.txt");
+            DataGridVseZayavki(@"C:\log\Closelog.txt");
         }
 
 
@@ -739,7 +747,7 @@ namespace Prototype_v1_Server
                     //config = file.AppendText();
                     //config.WriteLine(_patch);
                     //config.Close();
-                    StreamWriter config = new StreamWriter(@"D:\log\config.txt", false);
+                    StreamWriter config = new StreamWriter(@"C:\log\config.txt", false);
                     config.WriteLine(_patch);
                     config.Close();
                    
@@ -761,7 +769,7 @@ namespace Prototype_v1_Server
 
         private void закрытыеЗаявкиxlsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string patch = @"D:\\log\\closelog.txt";
+            string patch = @"C:\\log\\closelog.txt";
             DialogResult dl = MessageBox.Show("Построить отчёт", "Внимание!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dl == DialogResult.Yes)
             {
@@ -874,7 +882,7 @@ namespace Prototype_v1_Server
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DataGridVseZayavki(@"D:\log\Closelog.txt");
+            DataGridVseZayavki(@"C:\log\Closelog.txt");
         }
 
         private void фильтрxlsToolStripMenuItem_Click(object sender, EventArgs e)

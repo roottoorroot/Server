@@ -39,3 +39,15 @@ C:\Users\Administrator\Desktop\Хорошевская\Prototype_v1_Server1\Proto
 C:\Users\Administrator\Desktop\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.Llog.resources
 C:\Users\Administrator\Desktop\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.Properties.Resources.resources
 C:\Users\Administrator\Desktop\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.exe
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.pdb
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\bin\Debug\Prototype_v1_Server.exe
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\bin\Debug\Prototype_v1_Server.pdb
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.BarProgress.resources
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.Filtr.resources
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.Form1.resources
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.Form2.resources
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.Llog.resources
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Папки для работы\Хорошевская\Prototype_v1_Server1\Prototype_v1_Server\Prototype_v1_Server\obj\x86\Debug\Prototype_v1_Server.csproj.GenerateResource.Cache

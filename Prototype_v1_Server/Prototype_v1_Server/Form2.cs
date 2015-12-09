@@ -33,7 +33,7 @@ namespace Prototype_v1_Server
 
             Form1 f1 = new Form1();
             
-            string _patch = @"D:\log\Closelog.txt";
+            string _patch = @"C:\log\Closelog.txt";
             DialogResult dl = MessageBox.Show("Закрыть отчётный периуд с " + dateTimePicker1.Text + " по: " + datePicker2.Text, "Внимание!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dl == DialogResult.Yes)
             {

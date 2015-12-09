@@ -146,6 +146,33 @@
   <ItemGroup>
     <None Include="Resources\Icon_8.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_button1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_button2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_turn_on_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
